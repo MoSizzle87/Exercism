@@ -14,11 +14,6 @@ COLORS = (
 
 
 def color_code(color: str):
-    if not color:
-        return False
-    if color not in COLORS:
-        return False
-
     return COLORS.index(color)
 
 
